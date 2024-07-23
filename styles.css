@@ -33,6 +33,7 @@ body {
   .pastry img {
     width: 50px;
     height: 50px;
+    flex: auto;
   }
   
   .pastry1 { /* Cookie */
