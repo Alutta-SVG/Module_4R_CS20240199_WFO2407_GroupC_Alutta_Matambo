@@ -4,8 +4,8 @@ body {
     font-family: Arial, sans-serif;
     background-color: #fef3e2; 
     display: flex;
-    justify-content: center;
-    align-items: center;
+    justify-content: space-around;
+    align-items:center;
     height: 100vh;
   }
   
@@ -27,6 +27,7 @@ body {
     border-radius: 50%;
     font-size: 18px;
     position: absolute; 
+    flex: auto;
   }
   
   .pastry img {
@@ -36,25 +37,25 @@ body {
   
   .pastry1 { /* Cookie */
     top: 30px;
-    left: 200px;
+    left: 225px;
     background-color: #f0bb7f; 
   }
   
   .pastry2 { /* Brownie */
     top: 30px;
-    right: 250px;
+    right: 275px;
     background-color: #7f553f; 
   }
   
   .pastry3 { /* Cupcake */
     bottom: 30px;
-    left: 400px;
+    left: 425px;
     background-color: #f0a8be; 
   }
   
   .pastry4 { /* Jelly Roll */
     bottom: 30px;
-    right: 450px;
+    right: 475px;
     background-color: #7fa8f0; 
   }
   
